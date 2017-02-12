@@ -1,0 +1,27 @@
+{
+  "name": "gmail-next",
+  "version": "1.0.0",
+  "description": "Gmail is a great example app for testing frameworks for building rich client-side apps. Todo lists are boring and don't have enough complexity that you run into when you're building out a \"real\" app. Gmail is much closer.",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "next": "^2.0.0-beta.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markbrown4/gmail-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markbrown4/gmail-next/issues"
+  },
+  "homepage": "https://github.com/markbrown4/gmail-next#readme"
+}
