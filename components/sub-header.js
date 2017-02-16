@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import Icon from './icon'
 import DropDown from './drop-down'
 import CheckBox from './check-box'
@@ -16,7 +18,9 @@ export default () => (
         <a href className='btn btn-mini' title='Next'><Icon name='next' /></a>
       </div>
     </div>
-    <a href='/' className='btn' title='Back to Inbox'><Icon name='back' /></a>
+    <Link href='/'>
+      <a className='btn' title='Back to Inbox'><Icon name='back' /></a>
+    </Link>
     <DropDown className='btn'>
       <CheckBox />
       <Icon name='down' />

@@ -1,8 +1,12 @@
+import Link from 'next/link'
+
 export default () => (
   <div className='nav'>
     <a className='compose'>COMPOSE</a>
     <ul>
-      <li className='active'><a to='/'>Inbox</a></li>
+      <li className='active'>
+        <Link href='/'><a>Inbox</a></Link>
+      </li>
       <li><a>Sent Mail</a></li>
       <li><a>Drafts</a></li>
       <li><a>Trash</a></li>
